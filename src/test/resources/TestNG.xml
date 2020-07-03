@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+    <suite name="Testing JSON Parser">
+        <test name="Unit Tests">
+            <parameter name = "testFileName" value="src\\main\\resources\\person.json"/>
+            <parameter name = "totalPersons" value="2"/>
+            <parameter name = "personName" value="john"/>
+            <parameter name = "inputStreet" value="123 davis dr"/>
+            <parameter name = "inputCity" value="toronto"/>
+            <parameter name = "inputProvince" value="Ontario"/>
+            <parameter name = "inputOccupation" value="engineer"/>
+            <classes>
+                <class name="com.tests.TestParsingJSON"/>
+
+            </classes>
+        </test>
+    </suite>

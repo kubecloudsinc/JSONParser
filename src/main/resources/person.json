@@ -1,0 +1,22 @@
+{
+  "persons": [
+    {
+      "name": "john",
+      "address": {
+        "street": "123 davis dr",
+        "city": "toronto",
+        "state": "ontario"
+      },
+      "occupation": "engineer"
+    },
+    {
+      "name": "Sam",
+      "address": {
+        "street": "123 davis dr",
+        "city": "toronto",
+        "state": "ontario"
+      },
+      "occupation": "engineer"
+    }
+  ]
+}
